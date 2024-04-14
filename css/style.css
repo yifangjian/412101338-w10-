@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 0.5em;
+    margin-bottom: 10rem;
+    background-color: #FEDFE1;
+    background-position: 0;
+    font-family: Jazz LET, fantasy;
+    justify-content: center;
+    align-items: center;
+    cursor: url("/images/aj3my-3qm0f-001.ico"),auto;
+}
+
+a:hover{
+    cursor: url("/images/acpki-o8oju-001.ico"),auto;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    cursor: url("/images/acpki-o8oju-001.ico"),auto;
+    color: #86473F;
+}
+
+.btn_icons:hover{
+    background-color: whitesmoke;
+    cursor: url("/images/acpki-o8oju-001.ico"),auto;
+    color: #BF6766;
+}
+
+.btn {
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    position: fixed;
+    left: 1%;
+    top: 90%;
+   border: none;
+   background-color: transparent;
+   color: #EEA9A9;
+  }
+/*
+====================
+navbar
+====================
+*/
+.nav_1{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    width: 15em; /*在 CSS 中，em 單位是相對長度單位，它是相對於該元素本身字體大小（font-size 屬性）的值。*/
+    height: 8em;
+    margin: -2.5em 0 0 0;
+    background: #EEA9A9;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border-right: none;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    box-shadow: 0 1px 3px #8E354A;
+    border-radius: 3em 0.5em 0.5em 3em;
+}
+.nav_2{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    width: 15em; /*在 CSS 中，em 單位是相對長度單位，它是相對於該元素本身字體大小（font-size 屬性）的值。*/
+    height: 8em;
+    margin: -2.5em 0 0 0;
+    background: #BF6766;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border-right: none;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    box-shadow: 0 1px 3px #8E354A;
+    border-radius: 3em 0.5em 0.5em 3em;
+}
+
+.nav_3{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 15em; /*在 CSS 中，em 單位是相對長度單位，它是相對於該元素本身字體大小（font-size 屬性）的值。*/
+    height: 8em;
+    margin: -2.5em 0 0 0;
+    background: #86473F;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border-right: none;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    box-shadow: 0 1px 3px #8E354A;
+    border-radius: 3em 0.5em 0.5em 3em;
+}
+
+.nav_4{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 70%;
+    width: 15em; /*在 CSS 中，em 單位是相對長度單位，它是相對於該元素本身字體大小（font-size 屬性）的值。*/
+    height: 8em;
+    margin: -2.5em 0 0 0;
+    background: #CB1B45;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border-right: none;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    box-shadow: 0 1px 3px #8E354A;
+    border-radius: 3em 0.5em 0.5em 3em;
+}
+
+.nav_links{
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #FEDFE1;
+    }
+}
+
+a:hover{
+    color: #8E354A;
+}
+.nav_1:hover{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    width: 18em; /*在 CSS 中，em 單位是相對長度單位，它是相對於該元素本身字體大小（font-size 屬性）的值。*/
+    height: 8em;
+    margin: -2.5em 0 0 0;
+    background: #ffffff;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border-right: none;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    box-shadow: 0 1px 20px #8E354A;
+    border-radius: 3em 0.5em 0.5em 3em;
+}
+.nav_2:hover{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    width: 18em; /*在 CSS 中，em 單位是相對長度單位，它是相對於該元素本身字體大小（font-size 屬性）的值。*/
+    height: 8em;
+    margin: -2.5em 0 0 0;
+    background: #ffffff;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border-right: none;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    box-shadow: 0 1px 20px #8E354A;
+    border-radius: 3em 0.5em 0.5em 3em;
+}
+.nav_3:hover{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        right: 0;
+        top: 50%;
+        width: 18em; /*在 CSS 中，em 單位是相對長度單位，它是相對於該元素本身字體大小（font-size 屬性）的值。*/
+        height: 8em;
+        margin: -2.5em 0 0 0;
+        background: #ffffff;
+        font-weight: bold;
+        font-size: large;
+        text-align: left;
+        border-right: none;
+        padding: 0.5em 0.5em 0.5em 2.5em;
+        box-shadow: 0 1px 20px #8E354A;
+        border-radius: 3em 0.5em 0.5em 3em;   
+}
+
+.nav_4:hover{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 70%;
+    width: 18em; /*在 CSS 中，em 單位是相對長度單位，它是相對於該元素本身字體大小（font-size 屬性）的值。*/
+    height: 8em;
+    margin: -2.5em 0 0 0;
+    background: #ffffff;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border-right: none;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    box-shadow: 0 1px 20px #8E354A;
+    border-radius: 3em 0.5em 0.5em 3em;   
+}
+
+
+/*
+====================
+intro
+====================
+*/
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .intro {
+    /* Box Model 設定 */
+    padding: 20px;         
+    margin: 30px auto;      
+
+    /* 背景圖片 */
+    background-image: url('/images/intro.png');
+    background-size: contain;                  
+    background-position: center;            
+    width: 100%;                          
+    text-align: center;                   
+}
+
+#name {
+    color: #8E354A; /* 標題文字顏色 */
+}
+
+.intro_ul{
+    margin-right: 20rem;
+    animation: fadeIn 2s ease-in-out;
+    display: flex;
+    padding: 3em;
+    gap: 10em;
+    max-width: 80%;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.intro_pho{
+    max-width: 50vw;
+    max-height: 60vh;
+    border-radius: 100%;
+    box-shadow: 0 1px 25px #8E354A;
+}
+#intro_con{
+    color: #8E354A;
+}
+#intro_ul{
+    color: #8E354A;
+    width: 18em;
+}
+.social_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 0.5em;
+}
+
+.btn_icons{
+    margin-top: 1em;
+    background-color: transparent;
+    border: none;
+    color: #86473F;
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    a{color: #86473F;}
+}
+
+.btn_icons a:hover{
+    color: #BF6766;
+}
+
+
+/*
+====================
+habits
+====================
+*/
+.habits_center{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+    max-width: 70vw;
+    ol{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5%;
+            background-color: #BF6766;
+            width: 30%;
+            .img_1{
+                width: 100%;
+                height: 80%;
+                border-radius: 5%;
+                position: relative;
+            };
+            .img_1:hover{
+                opacity: 0.1;
+                width: 100%;
+                height: 80%;
+                border-radius: 5%;
+                animation: fadeIn 1.5s ease-in-out;
+                
+            };
+            .img_2{
+                width: 100%;
+                height: 80%;
+                border-radius: 5%;
+                position: relative;
+                
+            };
+            .img_2:hover{
+                opacity: 0.1;
+                width: 100%;
+                height: 80%;
+                border-radius: 5%;  
+                animation: fadeIn 1.5s ease-in-out;
+            };
+
+            video{
+                position: relative;
+                width: 100%;
+                height: 80%;
+            }
+            video:hover{
+                opacity: 0.1;
+                width: 100%;
+                height: 100%;
+                animation: fadeIn 1.5s ease-in-out;
+            }
+            h1{
+                color: whitesmoke;
+                padding: 1em;
+                border: 0.1em solid;
+                position: absolute;
+            }
+        }
+    }
+}
+
+#habits_center{
+    margin-top: 2em;
+}
+
+#ocean{
+    width: 65%;
+}
+
+/*
+====================
+feedback
+====================
+*/
+.feedback{
+    width: 70vw;
+    display: flex;
+    background-color: #86473F;
+    flex-direction: column;
+    padding: 5em;
+    border-radius: 50px;
+    margin-top: 10em;
+}
+
+input[type="text"] {
+    width: 300px;       
+    height: 40px;      
+    padding: 5px 10px; 
+    font-size: 16px;   
+    border: 3px solid #ccc; 
+    border-radius: 4px; 
+    box-shadow: 0px 0px 5px #aaa; /* 阴影效果 */
+}
+
+input[type="text"]:focus {
+    border-color: #66afe9; 
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6); 
+}
+
+textarea {
+    width: 100%;      
+    height: 150px;    
+    padding: 10px;   
+    font-size: 16px;   
+    border: 3px solid #ccc; 
+    border-radius: 4px; 
+    box-shadow: 0px 0px 5px #aaa;    
+    resize: vertical; 
+}
+
+textarea:focus {
+    border-color: #66afe9; 
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6); 
+}
+
+
+input[type="submit"] {
+    width: 65em;
+    background-color: #EEA9A9;
+
+}
+
+/*
+====================
+table
+====================
+*/
+
+.table_center{
+    max-width: 65em;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+table {
+    border-style: dashed;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%; 
+    margin: 20px 0;
+        }
+
+       
+th, td {
+    border: 1px solid #bebebe; 
+    padding: 8px;
+    text-align: center; 
+        }
+
+      
+th {
+    background-color: #f0f0f2; 
+    color: rgb(0, 0, 0); 
+        }
+
+       
+    tr:hover {background-color: #f5f5f5;}
+
+       
+    tr:nth-child(odd) {background-color: #f2f2f2;}
+
+/*
+====================
+ex
+====================
+*/
+.ex_center{
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    max-width: 80em;
+    gap: 5em;
+}
+
+.ex_1{
+    margin-top: 10em;
+    width: 80%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.ex_1_video{
+    width: 65em;
+    height: 35em;
+    border-radius: 5rem;
+}
+
+.ex_2{
+    margin-top: 5em;
+    width: 80%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.ex_3{
+    margin-top: 5em;
+    width: 80%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.ex_4{
+    margin-top: 5em;
+    width: 80%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+/*
+================
+song
+================
+*/
+.music-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.song_h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+audio {
+    margin: 20px 0;
+    width: 70%; 
+}
+
+.lyrics p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
